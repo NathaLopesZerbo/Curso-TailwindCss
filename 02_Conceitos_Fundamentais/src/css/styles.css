@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+
+    .btn-green{
+        @apply bg-green-500 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-green:hover{
+        @apply  hover:bg-green-700;
+    }
+
+    .btn-blue{
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-blue:hover{
+        @apply hover:bg-blue-700;
+    }
+
+    .btn-red{
+        @apply bg-red-500 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-red:hover{
+        @apply hover:bg-red-700;
+    }
+
+    .div-bloco{
+    @apply w-4 md:w-6 lg:w-10 xl:w-14
+    h-4 md:h-6 lg:h-10 xl:h-14
+    m-4
+    bg-green-400 md:bg-blue-400 lg:bg-red-400 xl:bg-gray-400;
+    }
+
+}
