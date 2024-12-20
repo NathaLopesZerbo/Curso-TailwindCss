@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 // tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{html,js}"], // Certifique-se de que está apontando para os arquivos certos
+  content: ["./src/**/*.{html,js}"], 
   theme: {
-    extend: {}, // Você pode adicionar novas cores aqui se necessário
+    extend: {}, 
   },
   plugins: [
     require('tailwindcss'),

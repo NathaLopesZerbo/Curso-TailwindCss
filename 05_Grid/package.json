@@ -1,0 +1,19 @@
+{
+  "name": "05_grid",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss build src/css/styles.css -o src/css/build.css",
+    "watch": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/build.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
